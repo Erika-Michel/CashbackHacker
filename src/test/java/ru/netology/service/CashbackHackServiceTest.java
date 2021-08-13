@@ -20,9 +20,9 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldCalculateIfMoreThan1000() {
 
-        int expected = 333;
+        int expected = 334;
 
-        int actual = service.remain(1667);
+        int actual = service.remain(1666);
 
         assertEquals(actual, expected);
     }
